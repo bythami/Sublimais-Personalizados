@@ -1,0 +1,290 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    font-size: 100%;
+    background-image: linear-gradient(68.15deg, #103f29, #73a136 85.61%);
+}
+.maxwidth{
+    max-width: 70.25em;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header{
+    text-align: center;
+    padding: 1em;
+}
+.header-image{
+    height: 8em;
+    margin-top: .5em;
+    margin-bottom: .5em;
+}
+.header-menu-item{
+    display: block;
+    font-family: 'Sarala', sans-serif;
+    color: #0e3d27;
+    font-weight: 700;
+    font-size: 1em;
+    background-color: rgba(65, 134, 60, .7);
+    margin-top: .2em;
+    border-radius: .5em;
+    cursor: pointer;
+    transition: all .5s;
+    letter-spacing: .1em;
+}
+.header-menu-item:hover{
+    background-color: #145537;
+    color: #bef5be;
+}
+.main{
+    margin-bottom: 3em;
+    border-top: 0.1em solid #bef5be;
+}
+.first-section{
+    text-align: center;
+}
+.first-section-indroduction-title{
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 2em;
+    color: #bef5be;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    text-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    letter-spacing: .1em;
+}
+.first-section-indroduction-subtitle{
+    font-family: 'Sarala', sans-serif;
+    font-weight: 700;
+    font-size: 1.5em;
+    color: #bef5be;
+    margin-bottom: 1.2em;
+    text-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    letter-spacing: .1em;
+}
+.first-section-indroduction a{
+    font-family: 'Sarala', sans-serif;
+    font-weight: 700;
+    font-size: 1em;
+    cursor: pointer;
+    display: inline-block;
+    height: 4em;
+    padding-top: 1.4em;
+    min-width: 15em;
+    text-shadow: 4px 5px 4px rgba(0, 0, 0, 0.30);
+}
+.first-section-indroduction-button{
+    background-image: linear-gradient(69deg, #1e704a, #8fd139 85.61%);
+    box-shadow: 4px 5px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 1.25em;
+    color: #bef5be;
+    transition: all .8s;
+}
+.first-section-indroduction-button:hover{
+    background-image: linear-gradient(68.15deg, #8fd139, #1e704a 85.61%);
+}
+.first-section-indroduction-image{
+    margin-top: .5em;
+    max-width: 18em;
+}
+.whoweare{
+    width: 96%;
+    margin: 2em auto;
+}
+.whoweare span[class^=icon]{
+    font-size: 3em;
+    color: #0e3d27;
+    margin-bottom: .5em;
+}
+.div-whoweare{
+    text-align: center;
+    margin: auto;
+    border-top: 0.1em solid #bef5be;
+    padding: 1em;
+}
+.whoweare-title{
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 2em;
+    color: #bef5be;
+    margin-bottom: 1em;
+}
+.whoweare-info{
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    color: #95c095;
+}
+.second-section div[class^=second-section-info]{
+    width: 96%;
+    text-align: center;
+    margin: auto;
+    border-top: 0.1em solid #bef5be;
+    padding-top: 1em;
+}
+.second-section span[class^=icon]{
+    font-size: 3em;
+    color: #0e3d27;
+}
+.second-section-questions{
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 1.5em;
+    color: #bef5be;    
+    margin-top: .5em;
+    margin-bottom: 1em;
+}
+.second-section-answer{
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    color: #95c095;
+    margin-bottom: 1.5em;
+}
+.second-section-service{
+    width: 18em;
+    height: 18em;
+    border-radius: 0.2em 5em;
+    align-items: center;
+    margin: auto auto 1em;
+    background-color: #fff;
+    box-shadow: 0 0 15px rgb(167, 196, 165);
+    position: relative;
+    display: block;
+    padding: .7em;
+}
+.second-section-service-image{
+    height: 11.5em;
+
+}
+.second-section-service-title{
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 1.5em;
+    color: #0e3d27;
+    text-shadow: 4px 5px 4px rgba(14, 59, 27, 0.616);
+    position: relative;
+    top: 9.5em;
+}
+.footer{
+    padding: 2em;
+    border-top: 0.1em solid #bef5be;
+    text-align: center;
+}
+.hidden{
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    display: block;
+}
+.footer-menushare li{
+    display: inline-block;
+    margin: 0 1em;
+    max-height: 2em;
+}
+.footer-menushare a{
+    font-size: 2em;
+    text-decoration: none;
+    color: #bef5be;
+}
+.footer-menushare a:hover{
+    color: #103f29;
+}
+.maps{
+    margin: 1em auto;
+}
+.footer-info{
+    text-align: center;
+    color: #bef5be;
+    font-size: 1.2em;
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    margin-bottom: 1.5em;
+}
+
+@media screen and (min-width: 43.75em){
+    .div-header{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .header-image{
+        height: 5em;
+    }
+    .header-menu{
+        display: flex;
+        gap: 2.5em;
+        background-color: transparent;
+    }
+    .header-menu-item{
+        background-color: transparent;
+    }
+    .header-menu-item:hover{
+        background-color: transparent;
+    }
+    .first-section-indroduction{
+        display: flex;
+        flex-direction: column;
+        gap: 2em;
+    }
+    .first-section-indroduction-title{
+        font-family: 'Righteous', cursive;
+        font-weight: 700;
+        font-size: 3.2em;
+        letter-spacing: .1em;
+        margin-bottom: 0;
+    }
+    .first-section-indroduction-subtitle{
+        font-family: 'Sarala', sans-serif;
+        font-weight: 400;
+        font-size: 2em;
+        margin-bottom: 0;
+    }
+    .first-section-indroduction-button{
+        margin: auto;
+        letter-spacing: .1em;
+    }
+    .first-section-indroduction-image{
+        min-width: 30em;
+    }
+    .second-section-services{
+        display: flex; 
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+        gap: .5em;
+        padding: 1.25em;
+    }
+}
+@media screen and (min-width: 60em){
+    .header-menu{
+        display: flex;
+        gap: 3em;
+        background-color: transparent;
+        margin-top: 15px;
+    }
+    .header-menu-item{
+        font-size: 1.3em;
+    }
+    .first-section{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+}
+@media screen and (min-width: 70em){
+    .header-menu{
+        gap: 4em;
+    }
+    .header-menu-item{
+        font-size: 1.5em;
+    }
+}
