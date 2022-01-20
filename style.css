@@ -37,6 +37,7 @@ body{
     cursor: pointer;
     transition: all .5s;
     letter-spacing: .1em;
+    text-shadow: 2px 3.5px 4px rgba(14, 59, 27, 0.616);
 }
 .header-menu-item:hover{
     background-color: #145537;
@@ -56,7 +57,7 @@ body{
     color: #bef5be;
     margin-top: 1em;
     margin-bottom: 1em;
-    text-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    text-shadow: 4px 5px 4px rgba(14, 59, 27, 0.616);
     letter-spacing: .1em;
 }
 .first-section-indroduction-subtitle{
@@ -65,7 +66,7 @@ body{
     font-size: 1.5em;
     color: #bef5be;
     margin-bottom: 1.2em;
-    text-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    text-shadow: 4px 5px 4px rgba(14, 59, 27, 0.616);
     letter-spacing: .1em;
 }
 .first-section-indroduction a{
@@ -77,11 +78,11 @@ body{
     height: 4em;
     padding-top: 1.4em;
     min-width: 15em;
-    text-shadow: 4px 5px 4px rgba(0, 0, 0, 0.30);
+    text-shadow: 4px 5px 4px rgba(14, 59, 27, 0.616);
 }
 .first-section-indroduction-button{
     background-image: linear-gradient(69deg, #1e704a, #8fd139 85.61%);
-    box-shadow: 4px 5px 8px rgba(0, 0, 0, 0.25);
+    box-shadow: 4px 5px 8px rgba(14, 59, 27, 0.616);
     border-radius: 1.25em;
     color: #bef5be;
     transition: all .8s;
@@ -90,7 +91,7 @@ body{
     background-image: linear-gradient(68.15deg, #8fd139, #1e704a 85.61%);
 }
 .first-section-indroduction-image{
-    margin-top: .5em;
+    margin-top: 1.5em;
     max-width: 18em;
 }
 .whoweare{
@@ -101,6 +102,7 @@ body{
     font-size: 3em;
     color: #0e3d27;
     margin-bottom: .5em;
+    text-shadow: 4px 5px 4px rgba(14, 59, 27, 0.616);
 }
 .div-whoweare{
     text-align: center;
@@ -114,6 +116,7 @@ body{
     font-size: 2em;
     color: #bef5be;
     margin-bottom: 1em;
+    text-shadow: 4px 5px 4px rgba(14, 59, 27, 0.616);
 }
 .whoweare-info{
     font-family: 'Sarala', sans-serif;
@@ -131,14 +134,16 @@ body{
 .second-section span[class^=icon]{
     font-size: 3em;
     color: #0e3d27;
+    text-shadow: 4px 5px 4px rgba(14, 59, 27, 0.616);
 }
 .second-section-questions{
     font-family: 'Righteous', cursive;
     font-weight: 400;
-    font-size: 1.5em;
+    font-size: 2em;
     color: #bef5be;    
     margin-top: .5em;
     margin-bottom: 1em;
+    text-shadow: 4px 5px 4px rgba(14, 59, 27, 0.616);
 }
 .second-section-answer{
     font-family: 'Sarala', sans-serif;
@@ -158,6 +163,13 @@ body{
     position: relative;
     display: block;
     padding: .7em;
+}
+.printer{
+    width: 20em;
+}
+.printer img{
+    width: 18.5em;
+    margin: auto;
 }
 .second-section-service-image{
     height: 11.5em;
@@ -192,12 +204,27 @@ body{
     font-size: 2em;
     text-decoration: none;
     color: #bef5be;
+    text-shadow: 4px 5px 4px rgba(14, 59, 27, 0.616);
 }
 .footer-menushare a:hover{
     color: #103f29;
+    text-shadow: 4px 5px 4px rgba(109, 168, 126, 0.616);
+}
+.icon-location{
+    margin-top: 1em;
+    font-size: 1.5em;
+    text-decoration: none;
+    color: #bef5be;
+    text-shadow: 4px 5px 4px rgba(14, 59, 27, 0.616);
+}
+.icon-location:hover{
+    font-weight: 700;
 }
 .maps{
+    border-radius: .8em;
     margin: 1em auto;
+    box-shadow: 4px 5px 4px rgba(14, 59, 27, 0.616);
+
 }
 .footer-info{
     text-align: center;
@@ -206,6 +233,7 @@ body{
     font-family: 'Righteous', cursive;
     font-weight: 400;
     margin-bottom: 1.5em;
+    text-shadow: 4px 5px 4px rgba(14, 59, 27, 0.616);
 }
 
 @media screen and (min-width: 43.75em){
